@@ -23,7 +23,7 @@ img {
 }
 
 .banner .h1 {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     color: #000000;
     font-weight: 700;
     padding-top: 0;
@@ -59,6 +59,7 @@ img {
     }
 
     .banner img {
+        padding-top: 1rem;
         padding-bottom: 1rem;
     }
 }
@@ -231,14 +232,14 @@ img {
 
 .merchants .section2 h3 {
     color: #545454;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 37.143px;
 }
 
 .merchants .section2 p {
     color: #000;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 30px;
 }
@@ -511,14 +512,14 @@ img {
 
 .software-solutions .section3 h3 {
     color: #545454;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 37.143px;
 }
 
 .software-solutions .section3 p {
     color: #000;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 30px;
 }
@@ -1528,14 +1529,14 @@ img {
 
 .premier-support .section3 h3 {
     color: #545454;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 37.143px;
 }
 
 .premier-support .section3 p {
     color: #000;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 30px;
 }
