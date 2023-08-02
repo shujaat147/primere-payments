@@ -268,12 +268,12 @@ body {
 }
 
 @media (max-width: 767px) {
-  .footer .ftext{
+  .footer .ftext {
     margin-top: 15px;
     font-size: 1rem;
   }
 
-  .footer .list-square a{
+  .footer .list-square a {
     font-size: 1rem;
   }
 }

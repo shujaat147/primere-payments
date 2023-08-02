@@ -44,6 +44,7 @@ img {
     .banner {
         height: 100%;
     }
+
     .banner .h1 {
         font-size: 170%;
         text-align: center;
@@ -326,7 +327,7 @@ img {
         font-size: 100%;
     }
 
-    .merchants .section2 .vertical-center{
+    .merchants .section2 .vertical-center {
         text-align: center;
         display: block;
     }
@@ -417,7 +418,7 @@ img {
         margin: 0px;
     }
 
-    .merchant-services .section2 .vertical-center{
+    .merchant-services .section2 .vertical-center {
         text-align: center;
         display: block;
     }
@@ -430,7 +431,7 @@ img {
         font-size: 100%;
     }
 
-    .merchant-services .section3 p{
+    .merchant-services .section3 p {
         font-size: 100%;
     }
 }
@@ -771,6 +772,7 @@ img {
 
     .ecommerce .section2 .detail,
     .ecommerce .section3 .detail {
+        margin-top: 1rem;
         font-size: 120%
     }
 
@@ -825,9 +827,13 @@ img {
 
 @media (max-width: 767px) {
 
-    .online-terminal .section2 .detail,
+    .online-terminal .section2 .detail {
+        font-size: 120%;
+        margin-top: 1rem;
+    }
+
     .online-terminal .section3 p {
-        font-size: 24px;
+        font-size: 100%;
     }
 
     .online-terminal .section3 img {
@@ -835,7 +841,7 @@ img {
     }
 
     .online-terminal .section4 .detail p {
-        font-size: 18px;
+        font-size: 100%;
     }
 }
 
@@ -890,21 +896,29 @@ img {
         justify-content: center;
     }
 
-    .high-risk .section1 img {
-        width: 80%;
+    .high-risk .section1 img,
+    .high-risk .section2 img {
+        width: 70%;
     }
 
-    .high-risk .section2 .detail,
+    .high-risk .section2 .detail {
+        font-size: 120%;
+    }
+
     .high-risk .section3 p {
-        font-size: 24px;
+        font-size: 100%;
+    }
+
+    .high-risk .section3 img {
+        width: 12%;
     }
 
     .high-risk .section4 .detail h3 {
-        font-size: 26px;
+        font-size: 120%;
     }
 
     .high-risk .section4 .detail p {
-        font-size: 18px;
+        font-size: 100%;
     }
 }
 
@@ -1075,7 +1089,7 @@ img {
 @media (max-width: 767px) {
     .payment-gateways .section2 .buttons {
         width: 50%;
-        font-size: 1rem;
+        font-size: 75%;
         padding: 10px 0px;
     }
 
@@ -1084,7 +1098,7 @@ img {
     .payment-gateways #playflow .section1 .h2,
     .payment-gateways #playflow .section2 .h2,
     .payment-gateways #linkpoint .section1 .h2 {
-        font-size: 1.8rem;
+        font-size: 140%;
     }
 
     .payment-gateways #premier .section1 .long,
@@ -1092,7 +1106,16 @@ img {
     .payment-gateways #playflow .section1 .long,
     .payment-gateways #playflow .section2 .long,
     .payment-gateways #linkpoint .section1 .long {
-        font-size: 1rem;
+        font-size: 100%;
+    }
+
+    .payment-gateways #premier .section2 .h1,
+    .payment-gateways #premier .section9 .h2,
+    .payment-gateways #authorize .section2 .h1,
+    .payment-gateways #authorize .section8 .h2,
+    .payment-gateways #playflow .section3 .h2,
+    .payment-gateways #linkpoint .section2 .h2 {
+        font-size: 150%;
     }
 
     .payment-gateways #premier .section2 h3,
@@ -1108,7 +1131,7 @@ img {
     .payment-gateways #authorize .section5 h3,
     .payment-gateways #authorize .section6 h3,
     .payment-gateways #authorize .section7 h3 {
-        font-size: 1.2rem;
+        font-size: 100%;
         padding-top: 15%;
     }
 
@@ -1116,9 +1139,8 @@ img {
     .payment-gateways #authorize .section8 h3,
     .payment-gateways #playflow .section3 h3,
     .payment-gateways #linkpoint .section2 h3 {
-        font-size: 1.3rem;
+        font-size: 120%;
         line-height: 1.2;
-        margin-bottom: 1rem;
     }
 
     .payment-gateways #premier .section9 h3 br,
@@ -2546,17 +2568,17 @@ img {
     border-radius: inherit;
 }
 
-.contact-us .section2 .dropdown-item.active{
+.contact-us .section2 .dropdown-item.active {
     background-color: #EFBB00 !important;
     color: #000;
 }
 
-.contact-us .section2 .dropdown-item:hover{
+.contact-us .section2 .dropdown-item:hover {
     background-color: #eec73c;
     color: #000;
 }
 
-.contact-us .section2 .accepted .dropdown-item.active{
+.contact-us .section2 .accepted .dropdown-item.active {
     background-color: white !important;
     color: #000;
 }
