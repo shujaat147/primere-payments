@@ -23,7 +23,7 @@ img {
 }
 
 .banner .h1 {
-    font-size: 3.5rem;
+    font-size: 350%;
     color: #000000;
     font-weight: 700;
     padding-top: 0;
@@ -31,12 +31,12 @@ img {
 
 .banner .detail {
     color: #545454;
-    font-size: 1.4rem;
+    font-size: 140%;
     font-weight: 500;
     line-height: 1.8;
 }
 
-.banner .h1 span{
+.banner .h1 span {
     color: #EFBB00;
 }
 
@@ -44,18 +44,14 @@ img {
     .banner {
         height: 100%;
     }
-
-    .banner .txt {
-        padding-left: 1.5rem;
-    }
-
     .banner .h1 {
-        font-size: 2.1rem;
+        font-size: 170%;
+        text-align: center;
         margin-top: 3%;
     }
 
     .banner .detail {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .banner img {
@@ -135,6 +131,7 @@ img {
     font-weight: 500;
     font-size: 1.4rem;
     color: #545454;
+    margin: 0px;
 }
 
 .index .section4 .box {
@@ -167,50 +164,53 @@ img {
 }
 
 @media (max-width: 767px) {
-
-    .index .section1 .h1 {
-        font-size: 2.5rem;
-        margin-top: 3%;
+    .index .banner .h1 {
+        text-align: left;
     }
 
-    .index .section1 p,
     .index .section3 .detail,
     .index .section6 .detail {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .index .section1 .btn,
     .index .section2 .btn,
     .index .section6 .btn {
         padding: 10px 25%;
+        font-size: 80%;
     }
 
     .index .section2 .h2,
     .index .section3 .h2 {
-        font-size: 2.3rem;
+        font-size: 150%;
     }
 
     .index .section2 p,
     .index .section5 p {
-        font-size: 1.2rem;
+        font-size: 100%;
     }
 
     .index .section3 .h3,
     .index .section6 .h3 {
-        font-size: 2rem;
+        font-size: 140%;
         margin-top: 2%;
     }
 
     .index .section4 .h4 {
-        font-size: 1.2rem;
+        font-size: 120%;
     }
 
     .index .section4 .txt {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .index .section4 .col-12 {
         padding-bottom: 30px;
+    }
+
+    .index .section4 .box {
+        padding: 25px 20px;
+        width: 100%;
     }
 }
 
@@ -315,22 +315,30 @@ img {
 
     .merchants .section2 img {
         width: 15%;
+        margin: 0px;
     }
 
     .merchants .section2 h3 {
-        font-size: 1.6rem;
+        font-size: 120%;
     }
 
     .merchants .section2 p {
-        font-size: 1.2rem;
+        font-size: 100%;
+    }
+
+    .merchants .section2 .vertical-center{
+        text-align: center;
+        display: block;
     }
 
     .merchants .section3 .h2 {
-        font-size: 1.8rem;
+        font-size: 150%;
     }
 
     .merchants .section3 h3 {
-        font-size: 1.2rem;
+        font-size: 100%;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
 
     .merchants .section3 li {
@@ -343,23 +351,23 @@ img {
     }
 
     .merchants .section4 h2 {
-        font-size: 1.6rem;
+        font-size: 120%;
     }
 
     .merchants .section4 .detail {
-        font-size: 0.8rem;
+        font-size: 80%;
     }
 
     .merchants .section4 .txt h3 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .merchants .section4 .txt p {
-        font-size: 1rem;
+        font-size: 90%;
     }
 
     .merchants .section4 .txt img {
-        width: 6%;
+        width: 5%;
     }
 }
 
@@ -406,14 +414,24 @@ img {
 
     .merchant-services .section2 img {
         width: 15%;
+        margin: 0px;
+    }
+
+    .merchant-services .section2 .vertical-center{
+        text-align: center;
+        display: block;
     }
 
     .merchant-services .section2 h3 {
-        font-size: 1.6rem;
+        font-size: 120%;
     }
 
     .merchant-services .section2 p {
-        font-size: 1.2rem;
+        font-size: 100%;
+    }
+
+    .merchant-services .section3 p{
+        font-size: 100%;
     }
 }
 
@@ -473,7 +491,7 @@ img {
     .additional-services .section4 h3,
     .additional-services .section5 h3 {
         padding-top: 10%;
-        font-size: 1.8rem;
+        font-size: 140%;
         line-height: 1;
     }
 
@@ -481,11 +499,11 @@ img {
     .additional-services .section3 p,
     .additional-services .section4 p,
     .additional-services .section5 p {
-        font-size: 17px;
+        font-size: 100%;
     }
 
     .additional-services .section6 .detail p {
-        font-size: 17px;
+        font-size: 100%;
     }
 }
 
@@ -537,31 +555,29 @@ img {
 
 @media (max-width: 767px) {
     .software-solutions .section2 p {
-        font-size: 1.4rem;
+        font-size: 100%;
     }
 
     .software-solutions .section3 .vertical-center {
-        align-items: center;
+        text-align: center;
+        display: block;
     }
 
     .software-solutions .section3 img {
         width: 15%;
+        margin: 0px;
     }
 
     .software-solutions .section3 h3 {
-        font-size: 1.6rem;
+        font-size: 120%;
     }
 
     .software-solutions .section3 p {
-        font-size: 1.2rem;
-    }
-
-    .software-solutions .section4 .detail h3 {
-        font-size: 26px;
+        font-size: 100%;
     }
 
     .software-solutions .section4 .detail p {
-        font-size: 18px;
+        font-size: 100%;
     }
 }
 
@@ -627,19 +643,19 @@ img {
 
     .retail-processing .section2 .detail,
     .retail-processing .section3 .detail {
-        font-size: 24px;
+        font-size: 120%;
     }
 
     .retail-processing .section4 h2 {
-        font-size: 30px;
+        font-size: 140%;
     }
 
     .retail-processing .section4 .detail h3 {
-        font-size: 26px;
+        font-size: 120%;
     }
 
     .retail-processing .section4 .detail p {
-        font-size: 18px;
+        font-size: 100%;
     }
 
     .retail-processing .section4 h2 br {
@@ -697,15 +713,11 @@ img {
 
     .mobile-wireless .section2 .detail,
     .mobile-wireless .section3 .detail {
-        font-size: 1rem;
+        font-size: 120%;
     }
 
     .mobile-wireless .section4 .detail p {
-        font-size: 1rem;
-    }
-
-    .mobile-wireless .section4 .detail {
-        padding: 20px 10px;
+        font-size: 100%;
     }
 }
 
@@ -759,11 +771,11 @@ img {
 
     .ecommerce .section2 .detail,
     .ecommerce .section3 .detail {
-        font-size: 24px;
+        font-size: 120%
     }
 
     .ecommerce .section4 .detail p {
-        font-size: 18px;
+        font-size: 100%
     }
 }
 
@@ -2522,7 +2534,6 @@ img {
     margin: 0px 0px !important;
     padding: 0px;
     border: 1px solid rgba(0, 0, 0, 0.30);
-    background: #FFF;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -2535,9 +2546,18 @@ img {
     border-radius: inherit;
 }
 
-.contact-us .section2 .dropdown-menu .dropdown-item:active,
-.contact-us .section2 .dropdown-menu .dropdown-item:hover {
-    background-color: #EFBB00;
+.contact-us .section2 .dropdown-item.active{
+    background-color: #EFBB00 !important;
+    color: #000;
+}
+
+.contact-us .section2 .dropdown-item:hover{
+    background-color: #eec73c;
+    color: #000;
+}
+
+.contact-us .section2 .accepted .dropdown-item.active{
+    background-color: white !important;
     color: #000;
 }
 
