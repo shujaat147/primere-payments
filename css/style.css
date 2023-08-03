@@ -61,6 +61,27 @@ img {
     }
 }
 
+@media (max-width: 767px) {
+    .banner {
+        height: 100%;
+    }
+
+    .banner .h1 {
+        font-size: 170%;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .banner .detail {
+        font-size: 100%;
+    }
+
+    .banner img {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
 /* index file start*/
 .index .section1 .btn,
 .index .section2 .btn,
@@ -1089,7 +1110,8 @@ img {
 @media (max-width: 767px) {
     .payment-gateways .section2 .buttons {
         width: 50%;
-        font-size: 75%;
+        font-size: 70%;
+        font-weight: 500;
         padding: 10px 0px;
     }
 
@@ -1098,7 +1120,7 @@ img {
     .payment-gateways #playflow .section1 .h2,
     .payment-gateways #playflow .section2 .h2,
     .payment-gateways #linkpoint .section1 .h2 {
-        font-size: 140%;
+        font-size: 150%;
     }
 
     .payment-gateways #premier .section1 .long,
@@ -1139,7 +1161,7 @@ img {
     .payment-gateways #authorize .section8 h3,
     .payment-gateways #playflow .section3 h3,
     .payment-gateways #linkpoint .section2 h3 {
-        font-size: 120%;
+        font-size: 100%;
         line-height: 1.2;
     }
 
@@ -1205,7 +1227,7 @@ img {
 
 @media (max-width: 767px) {
     .financial-institutions .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .financial-institutions .section2 p br {
@@ -1213,7 +1235,7 @@ img {
     }
 
     .financial-institutions .section3 .h2 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .financial-institutions .section3 .h2 br {
@@ -1227,7 +1249,7 @@ img {
     .financial-institutions .section7 h3,
     .financial-institutions .section8 h3,
     .financial-institutions .section9 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
     }
 }
@@ -1305,7 +1327,7 @@ img {
 
 @media (max-width: 767px) {
     .software-developers .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .software-developers .section2 p br {
@@ -1313,7 +1335,7 @@ img {
     }
 
     .software-developers .section3 .h2 {
-        font-size: 1.8rem;
+        font-size: 120%;
     }
 
     .software-developers .section3 h3,
@@ -1325,25 +1347,12 @@ img {
     .software-developers .section9 h3,
     .software-developers .section10 h3,
     .software-developers .section11 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
     }
 
-    .software-developers .section12 .detail h3 {
-        font-size: 26px;
-    }
-
     .software-developers .section12 .detail p {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 374px) {
-
-    .software-developers .section7 h3,
-    .software-developers .section10 h3,
-    .software-developers .section11 h3 {
-        white-space: inherit;
+        font-size: 100%;
     }
 }
 
@@ -1401,7 +1410,7 @@ img {
 
 @media (max-width: 767px) {
     .independent-agents .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .independent-agents .section2 p br {
@@ -1409,7 +1418,7 @@ img {
     }
 
     .independent-agents .section3 .h2 {
-        font-size: 1.8rem;
+        font-size: 120%;
     }
 
     .independent-agents .section3 h3,
@@ -1419,14 +1428,8 @@ img {
     .independent-agents .section7 h3,
     .independent-agents .section8 h3,
     .independent-agents .section9 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
-    }
-}
-
-@media (max-width: 374px) {
-    .independent-agents .section5 h3 {
-        white-space: inherit;
     }
 }
 
@@ -1503,10 +1506,7 @@ img {
     color: #000000;
     font-weight: 500;
     line-height: 1.5;
-}
-
-.referral-program .section13 h3 {
-    line-height: 1;
+    margin: 0px;
 }
 
 @media (max-width: 767px) {
@@ -1515,7 +1515,7 @@ img {
     }
 
     .referral-program .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .referral-program .section2 p br {
@@ -1524,7 +1524,7 @@ img {
 
     .referral-program .section3 .h2,
     .referral-program .section10 .h2 {
-        font-size: 1.8rem;
+        font-size: 120%;
     }
 
     .referral-program .section3 h3,
@@ -1538,7 +1538,7 @@ img {
     .referral-program .section11 h3,
     .referral-program .section12 h3,
     .referral-program .section13 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
     }
 
@@ -1595,31 +1595,33 @@ img {
 
 @media (max-width: 767px) {
     .premier-support .section2 p {
-        font-size: 1.6em;
+        font-size: 100%;
     }
 
     .premier-support .section3 .vertical-center {
-        align-items: center;
+        text-align: center;
+        display: block;
     }
 
     .premier-support .section3 img {
         width: 15%;
+        margin: 0px;
     }
 
     .premier-support .section3 h3 {
-        font-size: 1.6rem;
+        font-size: 120%;
     }
 
     .premier-support .section3 p {
-        font-size: 1.2rem;
+        font-size: 100%;
     }
 
     .premier-support .section4 .detail h3 {
-        font-size: 26px;
+        font-size: 120%
     }
 
     .premier-support .section4 .detail p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 }
 
@@ -1674,31 +1676,33 @@ img {
 
 @media (max-width: 767px) {
     .resource-center .section2 p {
-        font-size: 1.6em;
+        font-size: 100%;
     }
 
     .resource-center .section3 .vertical-center {
-        align-items: center;
+        text-align: center;
+        display: block;
     }
 
     .resource-center .section3 img {
         width: 15%;
+        margin: 0px;
     }
 
     .resource-center .section3 h3 {
-        font-size: 1.6rem;
+        font-size: 120%
     }
 
     .resource-center .section3 p {
-        font-size: 1.2rem;
+        font-size: 100%
     }
 
     .resource-center .section4 .detail h3 {
-        font-size: 26px;
+        font-size: 120%
     }
 
     .resource-center .section4 .detail p {
-        font-size: 1rem;
+        font-size: 100%
     }
 }
 
@@ -1750,13 +1754,13 @@ img {
 @media (max-width: 767px) {
 
     .how-it-works .section2 h1 {
-        font-size: 3rem;
-        text-align: left;
+        font-size: 300%;
+        text-align: center;
     }
 
     .how-it-works .section2 h2 {
-        font-size: 1.5rem;
-        text-align: left;
+        font-size: 150%;
+        text-align: center;
     }
 
     .how-it-works .section2 .back {
@@ -1764,15 +1768,35 @@ img {
     }
 
     .how-it-works .section2 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .how-it-works .section4 .detail h3 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .how-it-works .section4 .detail p {
-        font-size: 1rem;
+        font-size: 100%;
+    }
+
+    .how-it-works #one{
+        border: 2px solid #EFBB00;
+        border-right: 0px;
+    }
+    .how-it-works #two{
+        border: 2px solid #EFBB00;
+        border-left: 0px;
+        border-top: 0px
+    }
+    .how-it-works #three{
+        border: 2px solid #EFBB00;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .how-it-works #four{
+        border: 2px solid #EFBB00;
+        border-left: 0px;
+        border-top: 0px;
     }
 }
 
@@ -1821,19 +1845,19 @@ img {
 
 @media (max-width: 767px) {
     .merchant-tips .section2 h2 {
-        font-size: 1.6rem;
+        font-size: 150%;
     }
 
     .merchant-tips .section2 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .merchant-tips .section3 .h2 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .merchant-tips .section3 h3 {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .merchant-tips .section3 .h2 br {
@@ -1881,7 +1905,7 @@ img {
 
 @media (max-width: 767px) {
     .merchant-technology .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .merchant-technology .section3 h2,
@@ -1889,7 +1913,7 @@ img {
     .merchant-technology .section5 h2,
     .merchant-technology .section6 h2,
     .merchant-technology .section7 h2 {
-        font-size: 1.5rem;
+        font-size: 150%;
     }
 
     .merchant-technology .section3 p,
@@ -1897,7 +1921,7 @@ img {
     .merchant-technology .section5 p,
     .merchant-technology .section6 p,
     .merchant-technology .section7 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 }
 
@@ -1947,16 +1971,16 @@ img {
 
     .irs-compliance .section2 p,
     .irs-compliance .section2 .txt {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .irs-compliance .section3 .h2 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .irs-compliance .section2 h3,
     .irs-compliance .section3 h3 {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .irs-compliance .section2 li,
@@ -2018,7 +2042,7 @@ img {
 
 @media (max-width: 767px) {
     .warranties .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .warranties .section3 h3,
@@ -2029,7 +2053,7 @@ img {
     .warranties .section8 h3,
     .warranties .section9 h3,
     .warranties .section10 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
     }
 }
@@ -2119,21 +2143,21 @@ img {
 @media (max-width: 767px) {
     .faq .section2 .buttons {
         width: 50%;
-        font-size: 0.8rem;
+        font-size: 75%;
     }
 
     .faq .section2 h2 {
-        font-size: 2rem;
+        font-size: 150%;
     }
 
     .faq .section2 .accordion-button {
-        font-size: 1rem;
+        font-size: 70%;
         line-height: 1.2;
         padding: 5%;
     }
 
     .faq .section2 .accordion-body {
-        font-size: 1rem;
+        font-size: 100%;
         line-height: 1.3;
         padding: 1%;
     }
@@ -2188,19 +2212,19 @@ img {
     }
 
     .glossary .section2 h2 {
-        font-size: 2.1rem;
+        font-size: 200%;
     }
 
     .glossary .section2 h3 {
-        font-size: 1.5rem;
+        font-size: 150%;
     }
 
     .glossary .section2 p {
-        font-size: 0.8rem;
+        font-size: 80%;
     }
 
     .glossary .section2 .glos a {
-        font-size: 1.2rem;
+        font-size: 120%;
     }
 }
 
@@ -2280,21 +2304,21 @@ img {
 
 @media (max-width: 767px) {
     .pci-compliance .section2 p {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 
     .pci-compliance .section2 h2,
     .pci-compliance .section9 h2,
     .pci-compliance .section10 h2,
     .pci-compliance .section11 h2 {
-        font-size: 1.8rem;
+        font-size: 120%
     }
 
     .pci-compliance .section2 .txt,
     .pci-compliance .section9 p,
     .pci-compliance .section10 p,
     .pci-compliance .section11 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .pci-compliance .section2 p br {
@@ -2302,7 +2326,7 @@ img {
     }
 
     .pci-compliance .section3 .h2 {
-        font-size: 1.5rem;
+        font-size: 150%
     }
 
     .pci-compliance .section3 .h2 br {
@@ -2315,7 +2339,7 @@ img {
     .pci-compliance .section6 h3,
     .pci-compliance .section7 h3,
     .pci-compliance .section8 h3 {
-        font-size: 1.3rem;
+        font-size: 100%;
         padding-top: 10%;
     }
 }
@@ -2368,11 +2392,11 @@ img {
 
 @media (max-width: 767px) {
     .about .section2 .txt h2 {
-        font-size: 1.9rem;
+        font-size: 150%;
     }
 
     .about .section2 .txt p {
-        font-size: 1.2rem;
+        font-size: 100%;
     }
 
     .about .section2 h3,
@@ -2380,7 +2404,7 @@ img {
     .about .section4 h3,
     .about .section5 h3 {
         padding-top: 10%;
-        font-size: 1.8rem;
+        font-size: 140%;
         line-height: 1;
     }
 
@@ -2388,7 +2412,7 @@ img {
     .about .section3 p,
     .about .section4 p,
     .about .section5 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 }
 
@@ -2500,15 +2524,15 @@ img {
 
 @media (max-width: 767px) {
     .testimonials .section2 h1 {
-        font-size: 1.5rem;
+        font-size: 120%;
     }
 
     .testimonials .section2 .card h2 {
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .testimonials .section2 .card p {
-        font-size: 0.8rem;
+        font-size: 80%;
     }
 
     .testimonials .section2 .middle-item .col-md-4:not(:nth-child(2)) .card {
@@ -2709,22 +2733,21 @@ img {
 }
 
 @media (max-width: 767px) {
-    .contact-us .section2 h2 {
-        color: #000;
-        font-size: 1.8rem;
-        font-weight: 700;
-    }
-
     .contact-us .section2 .btns {
         padding: 10px 25%;
     }
 
-    .contact-us .section2 .txt {
-        font-size: 0.8rem;
+    .contact-us .section2 .txt a{
+        font-size: 90%;
+    }
+
+    .contact-us .section2 .txt{
+        font-size: 100%;
     }
 
     .contact-us .section2 .select {
         font-size: 0.9rem;
+        white-space: inherit;
     }
 
     .contact-us .background3 {
@@ -2795,11 +2818,11 @@ img {
 
 @media (max-width: 767px) {
     .privacy-policy .section2 .txt p {
-        font-size: 1.2rem;
+        font-size: 100%;
     }
 
     .privacy-policy .section2 h4 {
-        font-size: 1.2rem;
+        font-size: 100%
     }
 
     .privacy-policy .section2 h3,
@@ -2809,7 +2832,7 @@ img {
     .privacy-policy .section6 h3,
     .privacy-policy .section7 h3 {
         padding-top: 10%;
-        font-size: 1.8rem;
+        font-size: 120%;
         line-height: 1.2;
     }
 
@@ -2819,7 +2842,7 @@ img {
     .privacy-policy .section5 p,
     .privacy-policy .section6 p,
     .privacy-policy .section7 p {
-        font-size: 1rem;
+        font-size: 100%;
     }
 }
 
@@ -2947,8 +2970,9 @@ img {
 @media (max-width: 767px) {
     .contact-support .section2 h2 {
         color: #000;
-        font-size: 1.8rem;
+        font-size: 150%;
         font-weight: 700;
+        text-align: center;
     }
 
     .contact-support .section2 .btn {
@@ -2956,7 +2980,7 @@ img {
     }
 
     .contact-support .section2 .txt {
-        font-size: 0.8rem;
+        font-size: 100%;
     }
 }
 
