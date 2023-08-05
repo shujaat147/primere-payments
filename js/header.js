@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  // Function to check if the screen size is less than 768 pixels
+  // Function to check if the screen size is less than 1199.98 pixels
   function isScreenSmall() {
-    return $(window).width() < 768;
+    return $(window).width() < 1199.98;
   }
 
   let isDropdownOpen = false;
@@ -35,6 +35,8 @@ $(document).ready(function () {
       if (!isDropdownOpen) {
         // Open the dropdown menu on the first click
         isDropdownOpen = true;
+        $parentDropdown.data('clicked', true);
+        $('.nav-item.dropdown').not(this).find('.dropdown-menu').isDropdownOpen.removeClass('show');
         e.preventDefault();
         e.stopPropagation();
       } else {
@@ -42,7 +44,8 @@ $(document).ready(function () {
         const parentClicked = $parentDropdown.data('clicked');
 
         // If the parent dropdown was "clicked," allow the default behavior of the link on the second click
-        if (parentClicked) {
+        if (!parentClicked) {
+          $parentDropdown.data('clicked', false);
           isDropdownOpen = false;
         } else {
           // Navigate to the link on the second click

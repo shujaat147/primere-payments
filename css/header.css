@@ -74,7 +74,7 @@
 .header .signup .dropdown-menu,
 .header .signup .dropdown-menu[data-bs-popper] {
   margin-top: 1px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background-color: #fff;
 }
 
@@ -177,15 +177,36 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .navbar-nav li:hover>ul.dropdown-menu {
     display: block;
   }
 }
 
-@media (max-width: 1200px) and (min-width: 993px) {
+@media (max-width: 1199.98px) and (min-width: 767px) {
   .header .logo {
-    margin-left: 2rem;
+    margin-left: 1rem;
+  }
+
+  .header .nav-link {
+    padding-left: 25px;
+  }
+
+  .navbar-toggler[aria-expanded="true"] .navbar-icon {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    content: url(../img/cross.svg);
+  }
+
+  .header .dropdown-menu[data-bs-popper] {
+    display: block;
+  }
+
+  .header .signup .dropdown-menu[data-bs-popper] {
+    position: absolute;
+    z-index: 999;
+    padding: 10px 30px;
   }
 }
 
