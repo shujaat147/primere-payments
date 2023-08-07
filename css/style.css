@@ -90,6 +90,10 @@ img {
     padding: 10px 5%;
 }
 
+.index a {
+    text-decoration: none;
+}
+
 .index .section1 .btn:active,
 .index .section2 .btn:active,
 .index .section6 .btn:active,
@@ -420,8 +424,16 @@ img {
 }
 /* Merchants file end*/
 /* Merchant-services file Start*/
+.merchant-services a {
+    text-decoration: none;
+}
+
 .merchant-services .section1 img {
     mix-blend-mode: multiply;
+}
+
+.merchant-services .section2 img:hover {
+    cursor: pointer;
 }
 
 .merchant-services .section3 p {
@@ -556,6 +568,15 @@ img {
 
 /* Additional-services file end*/
 /* Software-solutions file Start*/
+
+.software-solutions .gate a {
+    text-decoration: none;
+}
+
+.software-solutions .gate img:hover {
+    cursor: pointer;
+}
+
 .software-solutions img {
     mix-blend-mode: multiply;
 }
@@ -600,7 +621,7 @@ img {
     margin: auto 3%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .software-solutions .section2 p {
         font-size: 100%;
     }
@@ -686,7 +707,7 @@ img {
     font-weight: 500;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .retail-processing .section2 .detail,
     .retail-processing .section3 .detail {
@@ -756,7 +777,7 @@ img {
     margin: auto 2%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .mobile-wireless .section2 .detail,
     .mobile-wireless .section3 .detail {
@@ -814,7 +835,7 @@ img {
     margin: auto 3%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .ecommerce .section2 .detail,
     .ecommerce .section3 .detail {
@@ -871,7 +892,7 @@ img {
     width: 10%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .online-terminal .section2 .detail {
         font-size: 120%;
@@ -936,7 +957,7 @@ img {
     margin-right: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .high-risk .banner-img {
         display: flex;
         justify-content: center;
@@ -1132,10 +1153,10 @@ img {
     margin: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .payment-gateways .section2 .buttons {
-        width: 50%;
-        font-size: 70%;
+        width: 25%;
+        font-size: 80%;
         font-weight: 500;
         padding: 10px 0px;
     }
@@ -1198,6 +1219,15 @@ img {
     }
 }
 
+@media (max-width: 767px){
+    .payment-gateways .section2 .buttons {
+        width: 50%;
+        font-size: 70%;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+}
+
 /* payment-gateways file end*/
 /* financial-institutions file Start*/
 .financial-institutions img {
@@ -1250,7 +1280,7 @@ img {
     line-height: 1.5;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .financial-institutions .section2 p {
         font-size: 100%;
     }
@@ -1350,7 +1380,7 @@ img {
     margin: auto 3%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .software-developers .section2 p {
         font-size: 100%;
     }
@@ -1433,7 +1463,7 @@ img {
     white-space: nowrap;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .independent-agents .section2 p {
         font-size: 100%;
     }
@@ -1534,9 +1564,9 @@ img {
     margin: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .referral-program .section1 .btn {
-        padding: 10px 25%;
+        padding: 10px 40px;
     }
 
     .referral-program .section2 p {
@@ -1567,6 +1597,12 @@ img {
         padding-top: 10%;
     }
 
+}
+
+@media (max-width: 767px){
+    .referral-program .section1 .btn {
+        padding: 10px 25%;
+    }
 }
 
 /* referral-program file end*/
@@ -1618,7 +1654,7 @@ img {
     font-weight: 400;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .premier-support .section2 p {
         font-size: 100%;
     }
@@ -1699,7 +1735,7 @@ img {
     font-weight: 400;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .resource-center .section2 p {
         font-size: 100%;
     }
@@ -1776,16 +1812,14 @@ img {
     font-weight: 400;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .how-it-works .section2 h1 {
         font-size: 300%;
-        text-align: center;
     }
 
     .how-it-works .section2 h2 {
         font-size: 150%;
-        text-align: center;
     }
 
     .how-it-works .section2 .back {
@@ -1863,7 +1897,7 @@ img {
     margin-bottom: 5%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .merchant-tips .section2 h2 {
         font-size: 150%;
     }
@@ -1923,7 +1957,7 @@ img {
     line-height: 1.7;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .merchant-technology .section2 p {
         font-size: 100%;
     }
@@ -1942,6 +1976,26 @@ img {
     .merchant-technology .section6 p,
     .merchant-technology .section7 p {
         font-size: 100%;
+    }
+
+    .merchant-technology .section3 img,
+    .merchant-technology .section4 img,
+    .merchant-technology .section5 img,
+    .merchant-technology .section6 img,
+    .merchant-technology .section7 img{
+        width: 70%;
+        object-fit: contain;
+        aspect-ratio: 4/2;
+    }
+}
+
+@media (max-width: 767px){
+    .merchant-technology .section3 img,
+    .merchant-technology .section4 img,
+    .merchant-technology .section5 img,
+    .merchant-technology .section6 img,
+    .merchant-technology .section7 img{
+        width: 100%;
     }
 }
 
@@ -1987,7 +2041,7 @@ img {
     margin-bottom: 5%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
 
     .irs-compliance .section2 p,
     .irs-compliance .section2 .txt {
@@ -2060,7 +2114,7 @@ img {
     margin: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .warranties .section2 p {
         font-size: 100%;
     }
@@ -2160,10 +2214,10 @@ img {
     border-radius: 0px 0px 20px 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .faq .section2 .buttons {
-        width: 50%;
-        font-size: 75%;
+        width: 25%;
+        font-size: 80%;
     }
 
     .faq .section2 h2 {
@@ -2180,6 +2234,13 @@ img {
         font-size: 100%;
         line-height: 1.3;
         padding: 1%;
+    }
+}
+
+@media (max-width: 767px){
+    .faq .section2 .buttons {
+        width: 50%;
+        font-size: 75%;
     }
 }
 
@@ -2226,7 +2287,7 @@ img {
     font-weight: 400;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .glossary .section2 .btns {
         padding: 10px 30px;
     }
@@ -2322,7 +2383,7 @@ img {
     font-weight: 700;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .pci-compliance .section2 p {
         font-size: 100%;
     }
@@ -2410,7 +2471,7 @@ img {
     font-size: 1.2rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .about .section2 .txt h2 {
         font-size: 150%;
     }
@@ -2542,7 +2603,7 @@ img {
     transform: translateX(0);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .testimonials .section2 h1 {
         font-size: 120%;
     }
@@ -2752,9 +2813,9 @@ img {
     box-shadow: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .contact-us .section2 .btns {
-        padding: 10px 25%;
+        padding: 10px 40px;
     }
 
     .contact-us .section2 .txt a{
@@ -2775,8 +2836,19 @@ img {
     }
 }
 
+@media (max-width: 767px){
+    .contact-us .section2 .btns {
+        padding: 10px 25%;
+    }
+}
+
 /* contact-us file end*/
 /* privacy-policy file Start*/
+
+.privacy-policy a {
+    text-decoration: none;
+}
+
 .privacy-policy .section2 .txt p {
     color: #000;
     font-size: 1.4rem;
@@ -2836,7 +2908,7 @@ img {
     color: #EFBB00;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .privacy-policy .section2 .txt p {
         font-size: 100%;
     }
@@ -2863,6 +2935,29 @@ img {
     .privacy-policy .section6 p,
     .privacy-policy .section7 p {
         font-size: 100%;
+    }
+
+    .privacy-policy .section2 img,
+    .privacy-policy .section3 img,
+    .privacy-policy .section4 img,
+    .privacy-policy .section5 img,
+    .privacy-policy .section6 img,
+    .privacy-policy .section7 img {
+        width: 60%;
+        object-fit: contain;
+        aspect-ratio: 3/2;
+
+    }
+}
+
+@media (max-width: 767px){
+    .privacy-policy .section2 img,
+    .privacy-policy .section3 img,
+    .privacy-policy .section4 img,
+    .privacy-policy .section5 img,
+    .privacy-policy .section6 img,
+    .privacy-policy .section7 img {
+        width: 100%;
     }
 }
 
@@ -2987,7 +3082,7 @@ img {
     font-weight: 600;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
     .contact-support .section2 h2 {
         color: #000;
         font-size: 150%;
@@ -2996,11 +3091,17 @@ img {
     }
 
     .contact-support .section2 .btn {
-        padding: 10px 25%;
+        padding: 10px 50px;
     }
 
     .contact-support .section2 .txt {
         font-size: 100%;
+    }
+}
+
+@media (max-width: 676px){
+    .contact-support .section2 .btn {
+        padding: 10px 25%;
     }
 }
 
@@ -3031,6 +3132,19 @@ img {
     color: #000;
     text-decoration: none;
 }
+
+@media (max-width: 991.98px){
+
+    .sitemap .section2 h2{
+        font-size: 200%;
+    }
+
+    .sitemap .section2 a{
+        font-size: 100%;
+        padding-left: 0%;
+    }
+}
+
 /* Sitemap file end*/
 /* Search file Start*/
 .search .section2 h4{
