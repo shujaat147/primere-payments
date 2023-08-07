@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Premier Payments</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/header.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- For Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -16,22 +18,28 @@
   <!-- header start-->
   <div class="row justify-content-center head">
     <nav id="top" class="header navbar nav navbar-expand-lg navbar-light row col-lg-12 col-xl-10">
-      <a class="col-6 col-lg-3 col-md-6 navbar-brand order-md-0 order-lg-0" href="#"><img class="logo img-fluid" width="200" src="./img/logo.png" alt="logo"></a>
+      <a class="col-6 col-lg-3 col-md-6 navbar-brand order-md-0 order-lg-0" href="#"><img class="logo img-fluid"
+          width="200" src="./img/logo.png" alt="logo"></a>
       <div class="col-2 col-md-1 col-lg-2 px-2 px-sm-0 order-md-2 order-lg-1">
-        <button class="navbar-toggler justify-content-end shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler justify-content-end shadow-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
           <img class="navbar-icon" src="./img/toggler.svg" width="22" height="22" alt="toggler">
         </button>
       </div>
-      <div class="col-lg-4 col-12 col-md-10 collapse order-md-4 order-lg-2 navbar-collapse justify-content-lg-end" id="navbarNavDropdown">
+      <div class="col-lg-4 col-12 col-md-10 collapse order-md-4 order-lg-2 navbar-collapse justify-content-lg-end"
+        id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link selectedlink" href="#">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./html/merchants.html" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Merchants</a>
+            <a class="nav-link dropdown-toggle" href="./html/merchants.html" id="navbarDropdownMenuLink1" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Merchants</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="./html/merchant-services.html" id="navbarDropdownMenuLink1_1">Merchant Services</a>
+                <a class="dropdown-item dropdown-toggle" href="./html/merchant-services.html"
+                  id="navbarDropdownMenuLink1_1">Merchant Services</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1_1">
                   <li><a class="dropdown-item" href="./html/retail-processing.html">Retail processing</a></li>
                   <li><a class="dropdown-item" href="./html/mobile-wireless.html">Mobile & Wireless</a></li>
@@ -42,7 +50,8 @@
               </li>
               <li><a class="dropdown-item" href="./html/additional-services.html">Additional Services</a></li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="./html/software-solutions.html" id="navbarDropdownMenuLink1_3">Software Solutions</a>
+                <a class="dropdown-item dropdown-toggle" href="./html/software-solutions.html"
+                  id="navbarDropdownMenuLink1_3">Software Solutions</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1_3">
                   <li><a class="dropdown-item" href="./html/payment-gateways.html">Payment Gateways</a></li>
                 </ul>
@@ -50,7 +59,8 @@
               <li class="dropdown-submenu">
                 <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink1_5">Partners</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1_5">
-                  <li><a class="dropdown-item " href="./html/financial-institutions.html">Financial Institutions</a></li>
+                  <li><a class="dropdown-item " href="./html/financial-institutions.html">Financial Institutions</a>
+                  </li>
                   <li><a class="dropdown-item" href="./html/software-developers.html">Software Developers</a></li>
                   <li><a class="dropdown-item" href="./html/independent-agents.html">Independent Agents</a></li>
                   <li><a class="dropdown-item" href="./html/referral-program.html">Referral Program</a></li>
@@ -59,25 +69,30 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./html/premier-support.html" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+            <a class="nav-link dropdown-toggle" href="./html/premier-support.html" id="navbarDropdownMenuLink2"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle " href="./html/resource-center.html" id="navbarDropdownMenuLink2_1">Resource Center</a>
+                <a class="dropdown-item dropdown-toggle " href="./html/resource-center.html"
+                  id="navbarDropdownMenuLink2_1">Resource Center</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2_1">
                   <li><a class="dropdown-item" href="./html/how-it-works.html">How It Works</a></li>
                   <li><a class="dropdown-item" href="./html/merchant-tips.html">Merchant Tips</a></li>
                   <li><a class="dropdown-item" href="./html/merchant-technology.html">Merchant Technology</a></li>
                   <li><a class="dropdown-item" href="./html/irs-compliance.html">IRS Compliance</a></li>
-                  <li><a class="dropdown-item" href="./html/warranties-sales-returns.html">Warranties, Sales & Returns</a></li>
+                  <li><a class="dropdown-item" href="./html/warranties-sales-returns.html">Warranties, Sales &
+                      Returns</a></li>
                 </ul>
               </li>
-              <li><a class="dropdown-item" href="./html/frequently-asked-questions.html">Frequently Asked Questions</a></li>
+              <li><a class="dropdown-item" href="./html/frequently-asked-questions.html">Frequently Asked Questions</a>
+              </li>
               <li><a class="dropdown-item" href="./html/glossary.html">Glossary</a></li>
               <li><a class="dropdown-item" href="./html/pci-compliance.html">PCI Compliance</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " href="./html/about.html" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+            <a class="nav-link dropdown-toggle " href="./html/about.html" id="navbarDropdownMenuLink3" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Company</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
               <li><a class="dropdown-item" href="./html/testimonials.html">Testimonials</a></li>
               <li><a class="dropdown-item" href="./html/contact-us.html">Contact Us</a></li>
@@ -90,7 +105,10 @@
       <div class="col-12 col-lg-4 col-md-4 signup order-md-1 order-lg-3">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link py-2 dropdown-toggle btn btn-block text-center px-md-2 px-lg-3 px-xl-3" href="#" id="navbarDropdownSignupLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span><img class="exit" width="20" height="20" src="./img/exit.svg" alt="exit"></span class="mx-5"> Signup/Login</a>
+            <a class="nav-link py-2 dropdown-toggle btn btn-block text-center px-md-2 px-lg-3 px-xl-3" href="#"
+              id="navbarDropdownSignupLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span><img
+                  class="exit" width="20" height="20" src="./img/exit.svg" alt="exit"></span class="mx-5">
+              Signup/Login</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownSignupLogin">
               <li><a class="dropdown-item" href="#">Merchant Portal</a></li>
               <li><a class="dropdown-item" href="#">Partner Portal</a></li>
@@ -111,11 +129,18 @@
         <section class="section1 banner container d-flex align-items-lg-center justify-content-lg-center">
           <div class="row align-items-lg-center">
             <div class="txt col-lg-7 col-12">
-              <p class="h1">CREDIT CARD <br><span>PROCESSING</span></p>
-              <p class="detail">Premier Payments is a full service credit and debit card processor committed to delivering the latest in payment technology and the absolute best customer service in the industry.</p>
-              <a href="./html/merchants.html"><button class="btn btn-primary d-flex m-auto mb-4 m-md-0 mb-lg-0">Merchant Solutions</button></a>
+              <p data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="h1">CREDIT CARD <br><span>PROCESSING</span></p>
+              <p data-aos="fade-right" data-aos-offset="200" data-aos-duration="900" data-aos-easing="ease-in-sine"
+                class="detail">Premier Payments is a full service credit and debit card processor committed to
+                delivering the latest in payment technology and the absolute best customer service in the industry.</p>
+              <div data-aos="fade-up" data-aos-duration="900">
+                <a href="./html/merchants.html"><button
+                    class="btn btn-primary d-flex m-auto mb-4 m-md-0 mb-lg-0">Merchant Solutions</button></a>
+              </div>
             </div>
-            <div class="col-lg-5 col-12 d-flex justify-content-lg-end justify-content-center align-content-lg-center">
+            <div
+              class="bounce col-lg-5 col-12 d-flex justify-content-lg-end justify-content-center align-content-lg-center">
               <img src="./img/banner-img.png" alt="banner-img" class="img-fluid">
             </div>
           </div>
@@ -126,9 +151,15 @@
     <div class="background2 row justify-content-center">
       <div class="col-lg-12 col-11">
         <!-- section2 start-->
-        <section class="section2 container pb-5 pt-5">
+        <section class="section2 container pb-5 pt-5" data-aos="fade-left" data-aos-offset="300"
+          data-aos-duration="2000">
           <p class="h2 text-center pb-lg-5 pb-2">ABOUT <span>PREMIER PAYMETS</span></p>
-          <p class="pb-lg-3">As one of the country’s premier merchant services providers; Premier Payments has powered billions of dollars of secure transactions. We deliver the latest technology and world-class customer support to strengthen relationships between merchants and agents to improve the consumer experience.The team we have built shares the same vision which is; empowering merchants across the globe to get the most out of their products and services by providing the best solutions for all of their needs. Having a team that shares those beliefs combined with decades of experience and talent is the foundation of our success</p>
+          <p class="pb-lg-3">As one of the country’s premier merchant services providers; Premier Payments has powered
+            billions of dollars of secure transactions. We deliver the latest technology and world-class customer
+            support to strengthen relationships between merchants and agents to improve the consumer experience.The team
+            we have built shares the same vision which is; empowering merchants across the globe to get the most out of
+            their products and services by providing the best solutions for all of their needs. Having a team that
+            shares those beliefs combined with decades of experience and talent is the foundation of our success</p>
           <div class="d-flex justify-content-center">
             <a href="./html/about.html"><button class="btn btn-primary px-5 ">Learn More</button></a>
           </div>
@@ -140,13 +171,18 @@
           <p class="h2 text-center pb-lg-5 pb-2">OUR <span>FEATURES</span></p>
           <div class="section3 container">
             <div class="row mb-5">
-              <div class="col-lg-6 col-12 d-flex justify-content-center">
+              <div class="col-lg-6 col-12 d-flex justify-content-center" data-aos="fade-right" data-aos-offset="300"
+                data-aos-duration="2000">
                 <img src="./img/banner-img-2.png" width="450" alt="banner-img-2" class="img-fluid">
               </div>
-              <div class="txt col-lg-6 col-12 d-flex align-items-center">
+              <div class="txt col-lg-6 col-12 d-flex align-items-center" data-aos="fade-left" data-aos-offset="300"
+                data-aos-duration="2000">
                 <div>
-                  <a href="./html/premier-support.html"><p class="h3 pt-lg-0 pt-2">Premier <span>Support</span></p></a>
-                  <p class="detail">Premier Payments has your best interests in mind and has designed programs to support the growth and expansion of your business.</p>
+                  <a href="./html/premier-support.html">
+                    <p class="h3 pt-lg-0 pt-2">Premier <span>Support</span></p>
+                  </a>
+                  <p class="detail">Premier Payments has your best interests in mind and has designed programs to
+                    support the growth and expansion of your business.</p>
                 </div>
               </div>
             </div>
@@ -160,33 +196,41 @@
           <div class="container">
             <div class="row gx-lg-5 text-center mb-lg-5">
               <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end">
-                <div class="box">
+                <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                  data-aos-offset="300">
                   <img class="img-fluid" width="80" src="./img/banner-1.png" alt="banner-1">
                   <p class="h4 mb-4 mt-4">Financial Institution</p>
-                  <p class="txt">Take advantage of our highly trained sales representatives for expert training and access to exclusive tools and services.</p>
+                  <p class="txt">Take advantage of our highly trained sales representatives for expert training and
+                    access to exclusive tools and services.</p>
                 </div>
               </div>
               <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start ">
-                <div class="box">
+                <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                  data-aos-offset="300">
                   <img class="img-fluid" width="80" src="./img/banner-2.png" alt="banner-2">
                   <p class="h4 mb-4 mt-4">Independent Agents</p>
-                  <p class="txt">Partner through our agent program for access to a broad range of resources that guarantee increased sales.</p>
+                  <p class="txt">Partner through our agent program for access to a broad range of resources that
+                    guarantee increased sales.</p>
                 </div>
               </div>
             </div>
             <div class="row gx-lg-5 text-center">
               <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end">
-                <div class="box">
+                <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                  data-aos-offset="300">
                   <img class="img-fluid" width="80" src="./img/banner-3.png" alt="banner-3">
                   <p class="h4 mb-4 mt-4">Software Developers</p>
-                  <p class="txt">Trust us to provide you and your developers with the most secure solutions and advanced reporting tools.</p>
+                  <p class="txt">Trust us to provide you and your developers with the most secure solutions and advanced
+                    reporting tools.</p>
                 </div>
               </div>
               <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start ">
-                <div class="box">
+                <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                  data-aos-offset="300">
                   <img class="img-fluid" width="80" src="./img/banner-4.png" alt="banner-4">
                   <p class="h4 mb-4 mt-4">Referral Program</p>
-                  <p class="txt">Give your referrals the added benefits of expedited approval, no contracts or annual/termination fees, and competitive pricing.</p>
+                  <p class="txt">Give your referrals the added benefits of expedited approval, no contracts or
+                    annual/termination fees, and competitive pricing.</p>
                 </div>
               </div>
             </div>
@@ -196,7 +240,9 @@
 
         <!-- section5 start -->
         <section class="section5 container pb-lg-5 pt-lg-3 pb-4">
-          <p class="text-center">Our partnership programs are designed to elevate your business and leverage every opportunity. Take the time to explore our programs, see what the advantages are to partnering with us, and discover the possibilities open to you.</p>
+          <p class="text-center">Our partnership programs are designed to elevate your business and leverage every
+            opportunity. Take the time to explore our programs, see what the advantages are to partnering with us, and
+            discover the possibilities open to you.</p>
         </section>
         <!-- section5 end -->
         <!-- section6 start -->
@@ -207,9 +253,13 @@
             </div>
             <div class="txt col-lg-6 col-12 d-flex align-items-center pt-lg-5">
               <div>
-                <a href="./html/resource-center.html"><p class="h3 pt-3 pt-lg-0">Resource <span>Center</span></p></a>
-                <p class="detail pb-3">Our comprehensive merchant services library. Learn about how it works, get some helpful tips, explore compliance issues, and more!</p>
-                <a href="./html/resource-center.html"><button class="btn btn-primary d-flex m-auto mb-4 m-md-0 mb-lg-0">Learn More</button></a>
+                <a href="./html/resource-center.html">
+                  <p class="h3 pt-3 pt-lg-0">Resource <span>Center</span></p>
+                </a>
+                <p class="detail pb-3">Our comprehensive merchant services library. Learn about how it works, get some
+                  helpful tips, explore compliance issues, and more!</p>
+                <a href="./html/resource-center.html"><button
+                    class="btn btn-primary d-flex m-auto mb-4 m-md-0 mb-lg-0">Learn More</button></a>
               </div>
             </div>
           </div>
@@ -253,6 +303,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
   <script src="./js/header.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
 </body>
 
 </html>

@@ -212,7 +212,7 @@
 
 html,
 body {
-  height: 100%;
+  height: fit-content;
   overflow-x: hidden;
 }
 
