@@ -9,6 +9,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/header.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- For Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -126,8 +127,8 @@
         <section class="section1 banner container d-flex align-items-lg-center justify-content-lg-center">
           <div class="row align-items-lg-center">
             <div class="txt col-lg-7 col-12">
-              <p class="h1">CONTACT SUPPORT</p>
-              <p class="detail">Premier Payments is committed to providing the absolute best merchant support in the
+              <p data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="h1">CONTACT SUPPORT</p>
+              <p data-aos="fade-right" data-aos-offset="200" data-aos-duration="900" data-aos-easing="ease-in-sine" class="detail">Premier Payments is committed to providing the absolute best merchant support in the
                 industry. Please contact our in-house experts at (866) 282-0720 for 24/7 dedicated support.</p>
             </div>
             <div class="col-lg-5 col-12 d-flex justify-content-center justify-content-lg-end">
@@ -209,6 +210,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
   <script src="../js/header.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
 </body>
 
 </html>
