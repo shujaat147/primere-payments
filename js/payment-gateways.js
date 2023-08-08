@@ -1,39 +1,22 @@
 function changeSection(section) {
- if (section === 'premier') {
-  document.getElementById('premierBtn').classList.add('active');
-  document.getElementById('authorizeBtn').classList.remove('active');
-  document.getElementById('playflowBtn').classList.remove('active');
-  document.getElementById('linkpointBtn').classList.remove('active');
-  document.getElementById('premier').style.display = 'block';
-  document.getElementById('authorize').style.display = 'none';
-  document.getElementById('playflow').style.display = 'none';
-  document.getElementById('linkpoint').style.display = 'none';
- } else if (section === 'authorize') {
-  document.getElementById('premierBtn').classList.remove('active');
-  document.getElementById('authorizeBtn').classList.add('active');
-  document.getElementById('playflowBtn').classList.remove('active');
-  document.getElementById('linkpointBtn').classList.remove('active');
-  document.getElementById('authorize').style.display = 'block';
-  document.getElementById('premier').style.display = 'none';
-  document.getElementById('playflow').style.display = 'none';
-  document.getElementById('linkpoint').style.display = 'none';
- } else if (section === 'playflow') {
-  document.getElementById('premierBtn').classList.remove('active');
-  document.getElementById('authorizeBtn').classList.remove('active');
-  document.getElementById('playflowBtn').classList.add('active');
-  document.getElementById('linkpointBtn').classList.remove('active');
-  document.getElementById('playflow').style.display = 'block';
-  document.getElementById('premier').style.display = 'none';
-  document.getElementById('authorize').style.display = 'none';
-  document.getElementById('linkpoint').style.display = 'none';
- } else if (section === 'linkpoint') {
-  document.getElementById('premierBtn').classList.remove('active');
-  document.getElementById('authorizeBtn').classList.remove('active');
-  document.getElementById('playflowBtn').classList.remove('active');
-  document.getElementById('linkpointBtn').classList.add('active');
-  document.getElementById('linkpoint').style.display = 'block';
-  document.getElementById('premier').style.display = 'none';
-  document.getElementById('authorize').style.display = 'none';
-  document.getElementById('playflow').style.display = 'none';
- }
+  const sections = ['premier', 'authorize', 'playflow', 'linkpoint'];
+
+  sections.forEach(s => {
+    const sectionElement = document.getElementById(s);
+    const buttonElement = document.getElementById(`${s}Btn`);
+
+    if (s === section) {
+      sectionElement.style.display = 'block';
+      buttonElement.classList.add('active');
+      AOS.refresh();
+      // Add data-aos-once='true' to the AOS elements within the active section
+      sectionElement.querySelectorAll('[data-aos]').forEach(element => {
+        element.setAttribute('data-aos-once', "true");
+      });
+      AOS.refresh(); // Refresh AOS animations
+    } else {
+      sectionElement.style.display = 'none';
+      buttonElement.classList.remove('active');
+    }
+  });
 }
