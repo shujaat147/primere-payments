@@ -59,10 +59,14 @@
 }
 
 .header .signup a.btn {
-  background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+  background: #814E00;
   border-radius: 40px;
   color: white;
   padding: 10px 30px;
+}
+
+.header .signup a.btn:hover {
+  background: #EFBB00;
 }
 
 .header .signup .exit {

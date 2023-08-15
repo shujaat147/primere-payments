@@ -708,7 +708,7 @@ img {
 
 .retail-processing .section4 .btn:hover {
     color: white;
-    opacity: 0.7;
+    background-image: url(../img/click-btn-2.png);
 }
 
 .retail-processing .section4 .txt {
@@ -784,8 +784,8 @@ img {
 
 .mobile-wireless .section4 .btn:hover {
     color: white;
-    opacity: 0.7;
     border: none;
+    background-image: url(../img/click-btn-2.png);
 }
 
 .mobile-wireless .section4 .txt {
@@ -842,7 +842,7 @@ img {
 
 .ecommerce .section4 .btn:hover {
     color: white;
-    opacity: 0.7;
+    background-image: url(../img/click-btn-2.png);
     border: none;
 }
 
@@ -1518,7 +1518,7 @@ img {
 
 .referral-program .section1 .btn {
     border-radius: 40px;
-    background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+    background: #814E00;
     border: none;
     font-weight: 600;
     padding: 10px 12%;
@@ -1526,7 +1526,7 @@ img {
 
 .referral-program .section1 .btn:active,
 .referral-program .section1 .btn:hover {
-    background: #1C1C1C;
+    background: #EFBB00;
     transition: none;
 }
 
@@ -2284,7 +2284,7 @@ img {
 /* glossary file Start*/
 .glossary .section2 .btns {
     border-radius: 40px;
-    background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+    background: #814E00;
     border: none;
     font-weight: 600;
     padding: 10px 20px;
@@ -2292,7 +2292,7 @@ img {
 
 .glossary .section2 .btns:active,
 .glossary .section2 .btns:hover {
-    background: #1C1C1C;
+    background: #EFBB00;
     transition: none;
 }
 
@@ -2827,7 +2827,7 @@ img {
 
 .contact-us .section2 .btns {
     border-radius: 40px;
-    background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+    background: #814E00;
     border: none;
     font-weight: 600;
     padding: 10px 12%;
@@ -2835,7 +2835,7 @@ img {
 
 .contact-us .section2 .btns:active,
 .contact-us .section2 .btns:hover {
-    background: #1C1C1C;
+    background: #EFBB00;
     transition: none;
 }
 
@@ -3101,7 +3101,7 @@ img {
 
 .contact-support .section2 .btn {
     border-radius: 40px;
-    background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+    background: #814E00;
     border: none;
     font-weight: 600;
     padding: 10px 12%;
@@ -3109,7 +3109,7 @@ img {
 
 .contact-support .section2 .btn:active,
 .contact-support .section2 .btn:hover {
-    background: #1C1C1C;
+    background: #EFBB00;
     transition: none;
 }
 
@@ -3206,13 +3206,13 @@ img {
 }
 
 .search .section2 .btn {
-    background-color: #EFBB00;
+    background-color: #814E00;
     color: white;
     padding: 12px 15px;
 }
 
 .search .section2 .btn:active {
-    background-color: black
+    background-color: #EFBB00;
 }
 
 .search .section2 p {
@@ -3233,6 +3233,24 @@ img {
 
 .search .section3 .card-title{
     cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .search .section2 h4{
+        font-size: 120%;
+    }
+
+    .search .section2 p{
+        font-size: 90%;
+    }
+
+    .search .section3 .card-title{
+        font-size: 120%;
+    }
+
+    .search .section3 .card-text{
+        font-size: 100%;
+    }
 }
 
 /* Search file end*/
