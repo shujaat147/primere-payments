@@ -5,13 +5,11 @@
 }
 
 .background {
-    background: rgb(253, 246, 217);
     background: linear-gradient(90deg, rgba(253, 246, 217, 1) 0%, rgba(255, 254, 251, 1) 50%, rgba(255, 255, 255, 1) 70%);
 }
 
 .background2 {
-    background: rgb(253, 246, 217);
-    background: linear-gradient(0deg, rgba(253, 246, 217, 1) 0%, rgba(255, 254, 251, 1) 55%, rgba(255, 255, 255, 1) 70%);
+    background: linear-gradient(0deg, rgba(253, 246, 217, 1) 0%, rgba(255, 254, 251, 1) 85%, rgba(255, 255, 255, 1) 100%);
 }
 
 img {
@@ -105,7 +103,7 @@ img {
 .index .section2 .btn,
 .index .section6 .btn {
     border-radius: 40px;
-    background: linear-gradient(100deg, #EFBB00 0%, #814E00 100%);
+    background: #814E00;
     border: none;
     font-weight: 600;
     padding: 10px 5%;
@@ -121,7 +119,7 @@ img {
 .index .section1 .btn:hover,
 .index .section2 .btn:hover,
 .index .section6 .btn:hover {
-    background: #1C1C1C;
+    background: #EFBB00;
     transition: none;
 }
 
@@ -699,6 +697,7 @@ img {
 }
 
 .retail-processing .section4 .btn {
+    border: none;
     color: white;
     font-weight: 600;
     border-radius: 40px;
