@@ -22,6 +22,12 @@
   transition: 0.4s;
 }
 
+.header .dropdown-item.active ,
+.header .dropdown-item:active,
+.header .dropdown-item:focus{
+  background-color: #846700;
+}
+
 .header .dropdown-menu {
   padding: 0;
 }

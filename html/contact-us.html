@@ -150,7 +150,7 @@
             <div class="dropdown">
               <button class="btn select form-control dropdown-toggle mb-lg-5 mb-3 mb-lg-3" id="payment" type="button"
                 data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
-                Currently Accept Credit Card Payments
+                Currently Accept Credit Card <br>Payments
               </button>
               <ul class="txt dropdown-menu form-control text-center" aria-labelledby="payment">
                 <li><a class="dropdown-item">Yes</a></li>
@@ -193,11 +193,11 @@
                 <li><a class="dropdown-item">$500,000k +</a></li>
               </ul>
             </div>
-            <form>
-              <input type="text" id="name" class="form-control mb-3" required placeholder="Business Name*">
-              <input type="tel" id="number" class="form-control mb-3" required placeholder="Contact Name*">
-              <input type="text" id="company" class="form-control mb-3" required placeholder="Contact Phone*">
-              <input type="email" id="email" class="form-control mb-3" required placeholder="Contact Email*">
+            <form method="post">
+              <input type="text" autocomplete="off" id="name" class="form-control mb-3" required placeholder="Business Name*">
+              <input type="text" autocomplete="off" id="company" class="form-control mb-3" required placeholder="Contact Name*">
+              <input type="tel" role="presentation" aria-autocomplete="off" autocomplete="off" id="number" class="form-control mb-3" required placeholder="Contact Phone*">
+              <input type="email" role="presentation" aria-autocomplete="off" autocomplete="off" id="email" class="form-control mb-3" required placeholder="Contact Email*">
               <textarea id="msg" class="form-control mb-3" cols="30" required rows="4"
                 placeholder="Message*"></textarea>
               <div class="d-flex justify-content-center">
