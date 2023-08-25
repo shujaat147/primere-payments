@@ -34,9 +34,10 @@ img {
     line-height: 1.8;
 }
 
-.banner img{
+.banner img {
     animation-name: bouncer;
     display: flex;
+    animation-delay: 1s;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -2741,7 +2742,7 @@ img {
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
-.contact-us .section2 #payment br{
+.contact-us .section2 #payment br {
     display: none;
 }
 
@@ -2774,7 +2775,7 @@ img {
 }
 
 .contact-us .section2 input#number {
-    background-image: url(../img/contact-us-2.svg);
+    background-image: url(../img/contact-us-3.svg);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5%;
@@ -2788,7 +2789,7 @@ img {
 }
 
 .contact-us .section2 input#company {
-    background-image: url(../img/contact-us-3.svg);
+    background-image: url(../img/contact-us-2.svg);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5%;
@@ -2830,7 +2831,8 @@ img {
     transition: 1s;
 }
 
-.contact-us .section2 .btns {
+.contact-us .section2 input#submit {
+    color: white;
     border-radius: 40px;
     background: #814E00;
     border: none;
@@ -2838,8 +2840,8 @@ img {
     padding: 10px 12%;
 }
 
-.contact-us .section2 .btns:active,
-.contact-us .section2 .btns:hover {
+.contact-us .section2 input#submit:active,
+.contact-us .section2 input#submit:hover {
     background: #EFBB00;
     transition: none;
 }
@@ -2853,6 +2855,15 @@ img {
 .contact-us .section2 .check input {
     box-shadow: none;
 }
+
+.contact-us .section2 h1 {
+    font-size: 1.8rem;
+    color:  #814E00;
+}
+
+.contact-us .section2 .highlight-empty {
+    outline: 2px solid red; /* Customize the highlighting style */
+  }
 
 @media (max-width: 991.98px) {
     .contact-us .section2 .btns {
@@ -2881,10 +2892,14 @@ img {
     .contact-us .section2 .btns {
         padding: 10px 25%;
     }
+
+    .contact-us .section2 h1 {
+    font-size: 1.2rem;
+}
 }
 
 @media (max-width: 400px) {
-    .contact-us .section2 #payment br{
+    .contact-us .section2 #payment br {
         display: block;
     }
 
@@ -3114,7 +3129,7 @@ img {
     transition: 1s;
 }
 
-.contact-support .section2 .btn {
+.contact-support .section2 input#submit {
     border-radius: 40px;
     background: #814E00;
     border: none;
@@ -3122,8 +3137,8 @@ img {
     padding: 10px 12%;
 }
 
-.contact-support .section2 .btn:active,
-.contact-support .section2 .btn:hover {
+.contact-support .section2 input#submit:active,
+.contact-support .section2 input#submit:hover {
     background: #EFBB00;
     transition: none;
 }
@@ -3246,24 +3261,24 @@ img {
     color: #000;
 }
 
-.search .section3 .card-title{
+.search .section3 .card-title {
     cursor: pointer;
 }
 
 @media (max-width: 991.98px) {
-    .search .section2 h4{
+    .search .section2 h4 {
         font-size: 120%;
     }
 
-    .search .section2 p{
+    .search .section2 p {
         font-size: 90%;
     }
 
-    .search .section3 .card-title{
+    .search .section3 .card-title {
         font-size: 120%;
     }
 
-    .search .section3 .card-text{
+    .search .section3 .card-text {
         font-size: 100%;
     }
 }

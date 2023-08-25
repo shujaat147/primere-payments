@@ -93,6 +93,7 @@
 .header .signup .dropdown-menu .dropdown-item:focus,
 .header .signup .dropdown-menu[data-bs-popper] .dropdown-item:focus {
   background-color: #fff;
+  color: black;
 }
 
 .header .collapse .navbar-item a {

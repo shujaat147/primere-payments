@@ -36,7 +36,9 @@ $(document).ready(function () {
         // Open the dropdown menu on the first click
         isDropdownOpen = true;
         $parentDropdown.data('clicked', true);
-        $('.nav-item.dropdown').not(this).find('.dropdown-menu').isDropdownOpen.removeClass('show');
+        if (isDropdownOpen) {
+          $('.nav-item.dropdown').not(this).find('.dropdown-menu').removeClass('show');
+        }
         e.preventDefault();
         e.stopPropagation();
       } else {
