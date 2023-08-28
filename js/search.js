@@ -1,5 +1,5 @@
 const sections = [
-    { name: 'Home' , link:'../html/home.html', description:'Premier Payments is a full service credit and debit card processor committed to delivering the latest in payment technology and the absolute best customer service in the industry.' },
+    { name: 'Home' , link:'../index.html', description:'Premier Payments is a full service credit and debit card processor committed to delivering the latest in payment technology and the absolute best customer service in the industry.' },
     { name: 'Merchants', link:'../html/merchants.html', description:'At Premier Payment, we pride ourselves in providing the absolute best customer service in the merchant processing industry with 24/7 in-house support and a comprehensive merchant training program.'},
     { name: 'Merchant Services', link:'../html/merchant-services.html', description:'Merchant Services are authorized financial services that allow a business to accept credit card or bank debit card transactions using online ordering or point of sales systems.'},
     { name: 'Retail Processing', link:'../html/retail-processing.html', description:'Retail businesses are fast-paced environments that rely a great deal on their ability to process transactions efficiently. We deliver high-quality retail credit card processing options that offer your customers flexibility and convenience.'},

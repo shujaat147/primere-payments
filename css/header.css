@@ -84,7 +84,7 @@
 .header .signup .dropdown-menu,
 .header .signup .dropdown-menu[data-bs-popper] {
   margin-top: 1px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #fff;
 }
 
